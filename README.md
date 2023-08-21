@@ -1,1 +1,11 @@
 # Elmar_Kessler_M346
+![alt text for screen readers](/path/to/image.png "Text to show on mouseover")
+![alt text for screen readers](/path/to/image.png "Text to show on mouseover")
+![alt text for screen readers](/path/to/image.png "Text to show on mouseover")
+![alt text for screen readers](/path/to/image.png "Text to show on mouseover")
+![alt text for screen readers](/path/to/image.png "Text to show on mouseover")
+![alt text for screen readers](/path/to/image.png "Text to show on mouseover")
+![alt text for screen readers](/path/to/image.png "Text to show on mouseover")
+![alt text for screen readers](/path/to/image.png "Text to show on mouseover")
+![alt text for screen readers](/path/to/image.png "Text to show on mouseover")
+![alt text for screen readers](/path/to/image.png "Text to show on mouseover")
