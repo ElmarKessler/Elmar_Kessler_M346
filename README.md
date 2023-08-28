@@ -11,7 +11,7 @@
 (KN1 in Zusammenarbeit mit Ruben gemacht.)
 
 ## KN2
-## Lab 4.1 - EC2
+## A Lab 4.1 - EC2
 ### HTML-Seite, inkl. URL
 ![](/WebseiteMitUrlEC2.PNG "")
 ### Liste der EC2-Instanzen
@@ -21,7 +21,7 @@
 ### Security-Group: Liste der Inbound-Regeln
 ![](/ListeInboundRegelnEC2.PNG "")
 
-## Lab 4.2 - S3
+## A Lab 4.2 - S3
 ### Liste der Buckets
 ![](/ListeBucketsS3.png "")
 ### HTML-Seite, inkl. URL
