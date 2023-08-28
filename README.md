@@ -7,4 +7,4 @@
 ![Der VM wird mehr CPUS zugeteilt als der PC zu Verfügung hat.](/zuvielCPU.png "")
 ## Der VM wird mehr RAM zugeteilt als der PC zu Verfügung hat.
 ![Der VM wird mehr RAM zugeteilt als der PC zu Verfügung hat.](/zuvielRAM.png "")
-
+(KN1 in Zusammenarbeit mit Ruben gemacht.)
