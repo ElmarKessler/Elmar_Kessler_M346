@@ -13,21 +13,21 @@
 ## KN2
 ## Lab 4.1 - EC2
 ### HTML-Seite, inkl. URL
-![Der VM wird weniger CPUS zugeteilt als der PC zu Verfügung hat.](/wenigerCPU.png "")
+![](/WebseiteMitUrlEC2.png "")
 ### Liste der EC2-Instanzen
-![Der VM wird weniger RAM zugeteilt als der PC zu Verfügung hat.](/wenigerRAM.png "")
+![](/ListeInstanzenEC2.png "")
 ### Details der Web Server-Instanz (öffentliche IP sichtbar)
-![Der VM wird mehr CPUS zugeteilt als der PC zu Verfügung hat.](/zuvielCPU.png "")
+![](/DetailsEC2.png "")
 ### Security-Group: Liste der Inbound-Regeln
-![Der VM wird mehr RAM zugeteilt als der PC zu Verfügung hat.](/zuvielRAM.png "")
+![](/ListeInboundRegelnEC2.png "")
 
 ## Lab 4.2 - S3
 ### Liste der Buckets
-![Der VM wird weniger CPUS zugeteilt als der PC zu Verfügung hat.](/wenigerCPU.png "")
+![](/ListeBucketsS3.png "")
 ### HTML-Seite, inkl. URL
-![Der VM wird weniger RAM zugeteilt als der PC zu Verfügung hat.](/wenigerRAM.png "")
+![](/webseiteMitUrlS3.png "")
 ### Liste der Dateien im Bucket
-![Der VM wird mehr CPUS zugeteilt als der PC zu Verfügung hat.](/zuvielCPU.png "")
+![](/ListeDateienInucketS3.png "")
 ### Eigenschaften von "Static website hosting"
-![Der VM wird mehr RAM zugeteilt als der PC zu Verfügung hat.](/zuvielRAM.png "")
+![](/EigenschaftenS3.png "")
 
