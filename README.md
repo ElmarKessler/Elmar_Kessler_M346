@@ -13,21 +13,21 @@
 ## KN2
 ## Lab 4.1 - EC2
 ### HTML-Seite, inkl. URL
-![](/WebseiteMitUrlEC2.png "")
+![](/WebseiteMitUrlEC2.PNG "")
 ### Liste der EC2-Instanzen
-![](/ListeInstanzenEC2.png "")
+![](/ListeInstanzenEC2.PNG "")
 ### Details der Web Server-Instanz (öffentliche IP sichtbar)
-![](/DetailsEC2.png "")
+![](/DetailsEC2.PNG "")
 ### Security-Group: Liste der Inbound-Regeln
-![](/ListeInboundRegelnEC2.png "")
+![](/ListeInboundRegelnEC2.PNG "")
 
 ## Lab 4.2 - S3
 ### Liste der Buckets
 ![](/ListeBucketsS3.png "")
 ### HTML-Seite, inkl. URL
-![](/webseiteMitUrlS3.png "")
+![](/webseiteMitUrlS3.PNG "")
 ### Liste der Dateien im Bucket
-![](/ListeDateienInucketS3.png "")
+![](/ListeDateienInucketS3.PNG "")
 ### Eigenschaften von "Static website hosting"
 ![](/EigenschaftenS3.png "")
 
