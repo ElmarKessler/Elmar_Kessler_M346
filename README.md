@@ -31,3 +31,11 @@
 ### Eigenschaften von "Static website hosting"
 ![](/EigenschaftenS3.png "")
 
+## B 
+### Screenshot mit dem ssh-Befehl und des Resultats unter Verwendung des ersten Schlüssels
+![](/Authenticated.PNG "")
+### Screenshot mit dem ssh-Befehl und des Resultats unter Verwendung des zweiten Schlüssels
+![](/Unauthenticated.PNG "")
+### Screenshot der Instanz-Detail (oder Liste), so dass der verwendete Schlüssel sichtbar ist
+![](/SeeKeyPair.PNG "")
+
