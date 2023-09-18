@@ -41,11 +41,11 @@
 
 ## C
 ### Screenshot von Index Seite
-![](/Authenticated.PNG "")
+![](/Apache2.PNG "")
 ### Screenshot von Info Seite
-![](/Authenticated.PNG "")
-### Screenshot von Php Seite
-![](/Authenticated.PNG "")
+![](/PhpPage.PNG "")
+### Screenshot von DB Seite
+![](/DBPage.PNG "")
 ## KN3
 ## A 
 
