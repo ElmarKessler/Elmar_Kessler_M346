@@ -42,22 +42,5 @@
 ## KN3
 ## A 
 
-#cloud-config
-#Cloud-Konfigurationsdatei
-users:
-  - name: ubuntu  # Benutzer mit dem Namen "ubuntu" definiert.
-    sudo: ALL=(ALL) NOPASSWD:ALL # Benutzer erhält sudo-Rechte ohne Passworteingabe.
-    groups: users, admin  # Benutzer ist Mitglied der Gruppen "users" und "admin".
-    home: /home/ubuntu     # Heimatverzeichnis für den Benutzer ist "/home/ubuntu".
-    shell: /bin/bash  # Der Benutzer verwendet die Bash-Shell als Standard-Shell.
-    ssh_authorized_keys:
-      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC0WGP1EZykEtv5YGC9nMiPFW3U3DmZNzKFO5nEu6uozEHh4jLZzPNHSrfFTuQ2GnRDSt+XbOtTLdcj26+iPNiFoFha42aCIzYjt6V8Z+SQ9pzF4jPPzxwXfDdkEWylgoNnZ+4MG1lNFqa8aO7F62tX0Yj5khjC0Bs7Mb2cHLx1XZaxJV6qSaulDuBbLYe8QUZXkMc7wmob3PM0kflfolR3LE7LResIHWa4j4FL6r5cQmFlDU2BDPpKMFMGUfRSFiUtaWBNXFOWHQBC2+uKmuMPYP4vJC9sBgqMvPN/X2KyemqdMvdKXnCfrzadHuSSJYEzD64Cve5Zl9yVvY4AqyBD aws-key       
-    #Öffentlicher SSH-Schlüssel wird für den Benutzer hinzugefügt, um sich ohne Passwort anzumelden.
-ssh_pwauth: false # Die Passwort-Authentifizierung über SSH ist deaktiviert.
-disable_root: false # Die Möglichkeit, sich als Root-Benutzer anzumelden, ist aktiviert.
-package_update: true # Das System wird aktualisiert, um sicherzustellen, dass alle Pakete auf dem neuesten Stand sind.
-packages:
-  - curl 
-  - wget 
-#Pakete "curl" und "wget" werden installiert.
+Siehe commented-cloud-config.yaml file im Repository an.
 
