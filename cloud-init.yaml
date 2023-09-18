@@ -8,7 +8,7 @@ users:
     home: /home/ubuntu     # Heimatverzeichnis für den Benutzer ist "/home/ubuntu".
     shell: /bin/bash  # Der Benutzer verwendet die Bash-Shell als Standard-Shell.
     ssh_authorized_keys:
-      - AAAAB3NzaC1yc2EAAAADAQABAAABAQDC189VB6syefxTIoxUOEQGLP2PE9g5YjwPtGWtVsWMgXzrhID/2JqcX9RpCdctOiVOo4JjmtwbZ1gChQ/n/eH5Rvaq1GmqDlNFIPJrzDIFvjiA9fVvL0W8nxF0N4AVjpIX+1RFRUQWUxuTHDG9nkF8dPIslbwfBsRMJZwBiRBsrLoyEvCRE8A9DQ21fQjRTXkRwuZdE7cG6rJKrptBO9MqFK9jdj3hW0E1KIdm2n175Bl7aY5NgWc5K0I/lHeV3649qXVFYKnw+y7Qo1oqxmhO3qNxKoL/jue9uA+Kq12LNcEbuRqPdjE0cBS2sSTBiK8ID77uaONDQsuE0ZaTu6Nr
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDC189VB6syefxTIoxUOEQGLP2PE9g5YjwPtGWtVsWMgXzrhID/2JqcX9RpCdctOiVOo4JjmtwbZ1gChQ/n/eH5Rvaq1GmqDlNFIPJrzDIFvjiA9fVvL0W8nxF0N4AVjpIX+1RFRUQWUxuTHDG9nkF8dPIslbwfBsRMJZwBiRBsrLoyEvCRE8A9DQ21fQjRTXkRwuZdE7cG6rJKrptBO9MqFK9jdj3hW0E1KIdm2n175Bl7aY5NgWc5K0I/lHeV3649qXVFYKnw+y7Qo1oqxmhO3qNxKoL/jue9uA+Kq12LNcEbuRqPdjE0cBS2sSTBiK8ID77uaONDQsuE0ZaTu6Nr aws-key
     # Öffentlicher SSH-Schlüssel wird für den Benutzer hinzugefügt, um sich ohne Passwort anzumelden.
 ssh_pwauth: false # Die Passwort-Authentifizierung über SSH ist deaktiviert.
 disable_root: false # Die Möglichkeit, sich als Root-Benutzer anzumelden, ist aktiviert.
