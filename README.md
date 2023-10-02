@@ -62,7 +62,7 @@ Ich habe bei der Konfiguration des EC2 Webservers darauf geachtet, dass alle Anf
 Dies habe ich bei AWS sowie auch Azure getan, wobei die vorgegeben Ressourcenpakete näher an den Anforderungen waren.
 
 ## 2 Replatforming
-![](/HekuroUebersicht.PNG "")
+![](/HekoruUebersicht.PNG "")
 ![](/PerformanceM.PNG "")
 ![](/Premium.PNG "")
 ## Warum diese Auswahl:
