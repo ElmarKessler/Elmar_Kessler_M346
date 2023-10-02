@@ -67,3 +67,7 @@ Dies habe ich bei AWS sowie auch Azure getan, wobei die vorgegeben Ressourcenpak
 ![](/Premium.PNG "")
 ## Warum diese Auswahl:
 Beim Dynos entschied ich ich für die Performance M Variante, da sie mit 2.5 GB RAM die Anforderung von 2 GB RAM erfüllt. Das Performance M Paket verfügt über die meisten Funktionen, die ein Nutzer braucht. Bei der Datenbank entschied ich mich für die Heroku Postgres Premium Variante. Gründe dafür waren die hohe Zuverlässigkeit und maximale Auszeit von nur 15 Minuten pro Monat.
+
+## 3 Repurchasing
+
+Dies Beginnen
