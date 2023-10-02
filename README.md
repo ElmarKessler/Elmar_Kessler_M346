@@ -53,4 +53,9 @@ Siehe commented-cloud-config.yaml file im Repository an.
 ## B
 Bilder hochladen
 
-
+## KN07
+## 1 Rehosting
+![](/TotalUebersict.PNG "")
+## Warum diese Auswahl:
+Ich habe bei der Konfiguration des EC2 Webservers darauf geachtet, dass alle Anforderungen erfüllt oder sogar übertroffen wurden. Ich entschied mich jedoch immer für die günstigste Variante der Konfiguration. Wenn die Anforderung z.B. 20 GB Speicher war und entweder 16 oder 32 GB zur Auswahl stünden, entschiede ich mich für 32 GB um die Anforderung abzudecken. 
+Dies habe ich bei AWS sowie auch Azure getan, wobei die vorgegeben Ressourcenpakete näher an den Anforderungen waren.
