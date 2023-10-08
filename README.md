@@ -71,7 +71,10 @@ Beim Dynos entschied ich ich für die Performance M Variante, da sie mit 2.5 GB 
 
 ## 3 Repurchasing
 
+## Zoho CRM
 ![](/zoho.PNG "")
+
+##Salesforce
 ![](/salesforce.PNG "")
 
 ## Warum diese Auswahl:
