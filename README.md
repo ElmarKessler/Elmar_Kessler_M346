@@ -70,4 +70,22 @@ Beim Dynos entschied ich ich für die Performance M Variante, da sie mit 2.5 GB 
 
 ## 3 Repurchasing
 
-Dies Beginnen
+![](/zoho.PNG "")
+![](/salesforce.PNG "")
+
+## Warum diese Auswahl:
+Bei ZOHO CRM kostet das Standat Angebot für 16 Mitarbeiter zusammen 224$ im Monat.
+Bei Salesforce kostet das Starter Angebot für 16 Mitarbeiter zusammen 400$ im Monat.
+Ich habe mich bei beiden Anbieter für die günstigst mögliche Option entschieden. Die Angebote sind nicht allzu teuer, jedoch ist Salesforce teurer als Zoho CRM.
+Ich entscheide mich wegen des Preises für Zoho CRM als SaaS.
+
+## Vergleiche der Systeme:
+Bei der Auswahl zwischen den verschiedenen Cloud-Service-Modellen, nämlich SaaS (Software as a Service), PaaS (Platform as a Service) und IaaS (Infrastructure as a Service), sollten Sie einige wichtige Faktoren berücksichtigen.
+
+SaaS: Unternehmen wie Zoho und Salesforce bieten SaaS-Lösungen an. Bei SaaS erhalten Sie fertige Produkte, ohne sich um die Hintergrundkonfiguration kümmern zu müssen. Dies ermöglicht eine schnelle Bereitstellung und ist besonders attraktiv für Unternehmen, die eine benutzerfreundliche Lösung suchen. Allerdings gehen mit dieser Bequemlichkeit oft höhere Kosten einher, da Wartung und Aktualisierung in den Gebühren enthalten sind. Ihre Wahl für SaaS hängt von der Dringlichkeit Ihrer Anforderungen und Ihrem Budget ab.
+
+PaaS: Heroku und Google App Engine sind Beispiele für PaaS-Anbieter. Mit PaaS müssen Sie sich nicht um die Serverkonfiguration kümmern, haben jedoch die Verantwortung, eigene Anwendungen zu entwickeln und zu programmieren. Dies ist ideal für Unternehmen, die die Flexibilität benötigen, eigene Anwendungen zu erstellen und zu verwalten, aber die Serverseite auslagern möchten. PaaS-Modelle sind oft kostengünstiger als SaaS, insbesondere wenn Sie Ihre eigene Software entwickeln können. Ihre Wahl für PaaS sollte davon abhängen, ob Sie die Entwicklungsfähigkeiten und Ressourcen haben, um Ihre Anwendungen zu erstellen.
+
+IaaS: Amazon Web Services (AWS) und Microsoft Azure sind führende IaaS-Anbieter. Bei IaaS sind Sie für die vollständige Konfiguration und Verwaltung der Infrastruktur verantwortlich. Dies bietet maximale Kontrolle und Flexibilität, kann jedoch komplex und anspruchsvoll sein, insbesondere ohne entsprechendes technisches Wissen. IaaS ist in der Regel kostengünstiger als SaaS und PaaS, erfordert jedoch mehr technisches Know-how und Ressourcen für die Verwaltung. Ihre Wahl für IaaS sollte davon abhängen, wie wichtig Ihnen die Kontrolle über Ihre Infrastruktur ist und ob Ihr Team die erforderlichen Fähigkeiten besitzt.
+
+Ihre endgültige Wahl zwischen diesen Modellen sollte sorgfältig abgewogen werden. Berücksichtigen Sie Faktoren wie Skalierbarkeit, Sicherheit, langfristige Kosten, Verfügbarkeit von Personalressourcen und die Fähigkeit, zukünftigen Anforderungen gerecht zu werden. Es ist ratsam, eine gründliche Analyse Ihrer Geschäftsanforderungen durchzuführen und möglicherweise eine Kombination dieser Modelle in Betracht zu ziehen, um die besten Ergebnisse für Ihr Unternehmen zu erzielen.
