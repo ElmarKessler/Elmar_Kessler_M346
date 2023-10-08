@@ -56,9 +56,18 @@ Bilder hochladen
 ## KN07
 ## 1 Rehosting
 ![](/Uebersicht.PNG "")
+![](/UebersichtAz.PNG "")
 ## Warum diese Auswahl:
 Ich habe bei der Konfiguration des EC2 Webservers darauf geachtet, dass alle Anforderungen erfüllt oder sogar übertroffen wurden. Ich entschied mich jedoch immer für die günstigste Variante der Konfiguration. Wenn die Anforderung z.B. 20 GB Speicher war und entweder 16 oder 32 GB zur Auswahl stünden, entschiede ich mich für 32 GB um die Anforderung abzudecken. 
 Dies habe ich bei AWS sowie auch Azure getan, wobei die vorgegeben Ressourcenpakete näher an den Anforderungen waren.
 
 ## 2 Replatforming
-![](/UebersichtAz.PNG "")
+![](/HekoruUebersicht.PNG "")
+![](/PerformanceM.PNG "")
+![](/Premium.PNG "")
+## Warum diese Auswahl:
+Beim Dynos entschied ich ich für die Performance M Variante, da sie mit 2.5 GB RAM die Anforderung von 2 GB RAM erfüllt. Das Performance M Paket verfügt über die meisten Funktionen, die ein Nutzer braucht. Bei der Datenbank entschied ich mich für die Heroku Postgres Premium Variante. Gründe dafür waren die hohe Zuverlässigkeit und maximale Auszeit von nur 15 Minuten pro Monat.
+
+## 3 Repurchasing
+
+Dies Beginnen
