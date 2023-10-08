@@ -54,6 +54,7 @@ Siehe commented-cloud-config.yaml file im Repository an.
 Bilder hochladen
 
 ## KN07
+## A
 ## 1 Rehosting
 ![](/Uebersicht.PNG "")
 ![](/UebersichtAz.PNG "")
@@ -74,18 +75,24 @@ Beim Dynos entschied ich ich für die Performance M Variante, da sie mit 2.5 GB 
 ![](/salesforce.PNG "")
 
 ## Warum diese Auswahl:
-Bei ZOHO CRM kostet das Standat Angebot für 16 Mitarbeiter zusammen 224$ im Monat.
-Bei Salesforce kostet das Starter Angebot für 16 Mitarbeiter zusammen 400$ im Monat.
-Ich habe mich bei beiden Anbieter für die günstigst mögliche Option entschieden. Die Angebote sind nicht allzu teuer, jedoch ist Salesforce teurer als Zoho CRM.
-Ich entscheide mich wegen des Preises für Zoho CRM als SaaS.
+Bei ZOHO CRM kostet das Standardangebot für 16 Mitarbeiter insgesamt 224$ pro Monat, während das Starterangebot bei Salesforce für 16 Mitarbeiter 400$ pro Monat kostet. Ich habe mich für die kostengünstigste Option bei beiden Anbietern entschieden. Obwohl die Angebote nicht übermäßig teuer sind, ist Salesforce teurer als Zoho CRM. Aufgrund des Preisunterschieds habe ich mich für Zoho CRM als SaaS-Option entschieden.
 
-## Vergleiche der Systeme:
-Bei der Auswahl zwischen den verschiedenen Cloud-Service-Modellen, nämlich SaaS (Software as a Service), PaaS (Platform as a Service) und IaaS (Infrastructure as a Service), sollten Sie einige wichtige Faktoren berücksichtigen.
+Beim Vergleich der verschiedenen Cloud-Service-Modelle, nämlich SaaS (Software as a Service), PaaS (Platform as a Service) und IaaS (Infrastructure as a Service), sind einige wichtige Überlegungen zu beachten.
 
-SaaS: Unternehmen wie Zoho und Salesforce bieten SaaS-Lösungen an. Bei SaaS erhalten Sie fertige Produkte, ohne sich um die Hintergrundkonfiguration kümmern zu müssen. Dies ermöglicht eine schnelle Bereitstellung und ist besonders attraktiv für Unternehmen, die eine benutzerfreundliche Lösung suchen. Allerdings gehen mit dieser Bequemlichkeit oft höhere Kosten einher, da Wartung und Aktualisierung in den Gebühren enthalten sind. Die Wahl für SaaS hängt von der Dringlichkeit der Anforderungen und dem Budget ab.
+SaaS: Unternehmen wie Zoho und Salesforce bieten SaaS-Lösungen an. Mit SaaS erhalten Sie fertige Produkte, ohne sich um die technischen Details kümmern zu müssen. Dies ermöglicht eine schnelle Bereitstellung und ist besonders attraktiv für Unternehmen, die eine benutzerfreundliche Lösung suchen. Allerdings können SaaS-Optionen aufgrund der enthaltenen Wartung und Aktualisierungskosten etwas teurer sein. Ihre Entscheidung für SaaS hängt von der Dringlichkeit Ihrer Anforderungen und Ihrem Budget ab.
 
-PaaS: Heroku und Google App Engine sind Beispiele für PaaS-Anbieter. Mit PaaS muss man sich nicht um die Serverkonfiguration kümmern, hat jedoch die Verantwortung, eigene Anwendungen zu entwickeln und zu programmieren. Dies ist ideal für Unternehmen, die die Flexibilität benötigen, eigene Anwendungen zu erstellen und zu verwalten, aber die Serverseite auslagern möchten. PaaS-Modelle sind oft kostengünstiger als SaaS, insbesondere wenn man seine eigene Software entwickeln kann. Die Wahl für PaaS sollte davon abhängen, ob man die Entwicklungsfähigkeiten und Ressourcen hat, um seine Anwendungen zu erstellen.
+PaaS: Heroku und Google App Engine sind Beispiele für PaaS-Anbieter. Mit PaaS müssen Sie sich nicht um die Serverkonfiguration kümmern, müssen jedoch Ihre eigenen Anwendungen entwickeln und programmieren. Dies ist ideal für Unternehmen, die die Flexibilität wünschen, eigene Anwendungen zu erstellen und zu verwalten, aber die Serverseite auslagern möchten. PaaS-Modelle sind oft kostengünstiger als SaaS, insbesondere wenn Sie über die erforderlichen Entwicklerfähigkeiten und Ressourcen verfügen.
 
-IaaS: Amazon Web Services (AWS) und Microsoft Azure sind führende IaaS-Anbieter. Bei IaaS sind Sie für die vollständige Konfiguration und Verwaltung der Infrastruktur verantwortlich. Dies bietet maximale Kontrolle und Flexibilität, kann jedoch komplex und anspruchsvoll sein, insbesondere ohne entsprechendes technisches Wissen. IaaS ist in der Regel kostengünstiger als SaaS und PaaS, erfordert jedoch mehr technisches Know-how und Ressourcen für die Verwaltung. Die Wahl für IaaS sollte davon abhängen, wie wichtig einem die Kontrolle über seine Infrastruktur ist und ob sein Team die erforderlichen Fähigkeiten besitzt.
+IaaS: Amazon Web Services (AWS) und Microsoft Azure sind führende IaaS-Anbieter. Bei IaaS sind Sie für die vollständige Konfiguration und Verwaltung der Infrastruktur verantwortlich. Dies bietet maximale Kontrolle und Flexibilität, kann jedoch komplex sein und erfordert technisches Know-how. IaaS ist in der Regel kostengünstiger als SaaS und PaaS, erfordert jedoch mehr technisches Wissen und Ressourcen für die Verwaltung. Ihre Wahl für IaaS sollte von Ihrem Bedarf an Kontrolle über die Infrastruktur und den vorhandenen Fähigkeiten in Ihrem Team abhängen.
 
-Die endgültige Wahl zwischen diesen Modellen sollte sorgfältig abgewogen werden. Man muss Faktoren wie Skalierbarkeit, Sicherheit, langfristige Kosten, Verfügbarkeit von Personalressourcen und die Fähigkeit, zukünftigen Anforderungen gerecht zu werden berücksichtigen. Es ist ratsam, eine gründliche Analyse der Geschäftsanforderungen durchzuführen und möglicherweise eine Kombination dieser Modelle in Betracht zu ziehen, um die besten Ergebnisse für das Unternehmen zu bekommen.
+Die endgültige Entscheidung zwischen diesen Modellen sollte sorgfältig abgewogen werden. Berücksichtigen Sie Faktoren wie Skalierbarkeit, Sicherheit, langfristige Kosten, die Verfügbarkeit von Personalressourcen und die Fähigkeit, zukünftige Anforderungen zu erfüllen. Eine gründliche Analyse Ihrer Geschäftsanforderungen ist ratsam, und es kann auch sinnvoll sein, eine Kombination dieser Modelle in Betracht zu ziehen, um die besten Ergebnisse für Ihr Unternehmen zu erzielen.
+
+## B
+
+Die Unterschiede zwischen den verschiedenen Optionen sind ziemlich groß. Wenn wir über den Preis sprechen, ist AWS mit seinem Rehosting-Service normalerweise am günstigsten. Herokus Replatforming-Service ist im Vergleich dazu teurer. Das liegt daran, dass Heroku eine umfassendere Konfiguration bietet, was die Kosten erhöht.
+
+Die Frage nach dem "billigsten" hängt von Ihren speziellen Bedürfnissen ab. In der Regel ist AWS jedoch preislich wettbewerbsfähig und bietet oft die kostengünstigste Lösung.
+
+Warum ist eines teurer als das andere? Das liegt vor allem an den zusätzlichen Funktionen und den individuellen Anforderungen. Heroku bietet mehr Möglichkeiten zur Anpassung, was die Kosten erhöht, aber auch mehr Funktionen bietet.
+
+Es ist wichtig zu beachten, dass "teurer" nicht gleichbedeutend mit "übermäßig teuer" ist, da die höheren Kosten durch zusätzliche Leistungen und Funktionen gerechtfertigt sein können. Daher sollten Sie Ihre Entscheidung nicht allein aufgrund des Preises treffen, sondern auch die speziellen Anforderungen und den Mehrwert berücksichtigen, den jede Option bietet.
