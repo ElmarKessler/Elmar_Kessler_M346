@@ -101,3 +101,18 @@ Warum kostet eine Option mehr als die andere? Dies kann vor allem auf die zusät
 Es ist entscheidend zu beachten, dass "teurer" nicht zwangsläufig "übermäßig teuer" bedeutet. Die höheren Kosten können durch zusätzliche Leistungen und Funktionen gerechtfertigt sein, die möglicherweise für Ihre speziellen Anforderungen von großem Wert sind. Daher ist es ratsam, Ihre Entscheidung nicht ausschließlich aufgrund des Preises zu treffen, sondern auch die individuellen Anforderungen und den Mehrwert jeder Option sorgfältig abzuwägen.
 
 Persönlich neige ich zur Auswahl zwischen AWS und Zoho, da beide preislich attraktiv sind und eine breite Palette von Dienstleistungen bieten. Für mich hängt die endgültige Entscheidung von den spezifischen Anforderungen meines Projekts ab, aber diese beiden Optionen bieten eine solide Grundlage für die meisten Anwendungsfälle.
+
+## KN04
+## A
+## B
+## C
+## D
+
+Name	            Typ	  Persistenz
+EBS Root	        Hot	  Nein
+EBS 2nd volume	  Hot	  Ja
+S3	              Warm	Ja
+
+Die EBS-Root-Konfiguration spielt eine entscheidende Rolle, da sie als Host für den Webserver fungiert und stets die image.php-Datei bereitstellen muss. Sie ist zweifellos "hot", da sie bei Bedarf sofortige Zugriffe ermöglicht. Allerdings ist sie nicht persistent, da sämtliche Dateien nach dem Herunterfahren der Instanz gelöscht werden.
+Das EBS-Second-Volume hingegen zeichnet sich durch seine Kälte aus, da es zwar keine direkte Bereitstellung von Daten bietet, jedoch aufgrund seiner Persistenz die Informationen auch nach dem Herunterfahren der Instanz bewahrt, ohne sie zu löschen.
+S3 ist für die Bereitstellung des Bildes, das von der image.php-Datei genutzt wird, von großer Bedeutung. Die Persistenz dieses Speichers ist bemerkenswert, da die Daten auch nach dem Herunterfahren erhalten bleiben, ohne gelöscht zu werden.
