@@ -406,6 +406,9 @@ S3 ist für die Bereitstellung des Bildes, das von der image.php-Datei genutzt w
 ![](/KN05BSubnet.PNG "")
 IP 1: 172.31.2.0 IP 2: 172.31.4.0
 ## C
+## PHP Page, Apache2
+![](/PhpPage.PNG "")
+![](/Apache2.PNG "")
 ## Screenshot der Liste der Sicherheitsgruppe mit sprechenden Namen/Feldern
 ![](/KN05CSecurityGroups.PNG "")
 ## Screenshot der Inbound-Regel für die DB-Sicherheitsgruppe
