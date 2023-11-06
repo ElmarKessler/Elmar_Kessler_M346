@@ -51,9 +51,15 @@
 Siehe commented-cloud-config.yaml file im Repository an.
 
 ## B
-Bilder hochladen
+### Ein Screenshot der Details oder Liste der Instanz, welcher den verwendeten Key zeigt
+![](/KN3List.PNG "")
+### Screenshot mit dem ssh-Befehl und des Resultats unter Verwendung des ersten Schlüssels
+![](/KN3ErsterKey.PNG "")
+### Screenshot mit dem ssh-Befehl und des Resultats unter Verwendung des zweiten Schlüssels
+![](/KN3ZweiterKey.PNG "")
 
 ## KN07
+## A
 ## 1 Rehosting
 ![](/Uebersicht.PNG "")
 ![](/UebersichtAz.PNG "")
@@ -70,4 +76,48 @@ Beim Dynos entschied ich ich für die Performance M Variante, da sie mit 2.5 GB 
 
 ## 3 Repurchasing
 
-Dies Beginnen
+## Zoho CRM
+![](/zoho.PNG "")
+
+## Salesforce
+![](/salesforce.PNG "")
+
+## Warum diese Auswahl:
+Bei ZOHO CRM kostet das Standardangebot für 16 Mitarbeiter insgesamt 224$ pro Monat, während das Starterangebot bei Salesforce für 16 Mitarbeiter 400$ pro Monat kostet. Ich habe mich für die kostengünstigste Option bei beiden Anbietern entschieden. Obwohl die Angebote nicht übermäßig teuer sind, ist Salesforce teurer als Zoho CRM. Aufgrund des Preisunterschieds habe ich mich für Zoho CRM als SaaS-Option entschieden.
+
+Beim Vergleich der verschiedenen Cloud-Service-Modelle, nämlich SaaS (Software as a Service), PaaS (Platform as a Service) und IaaS (Infrastructure as a Service), sind einige wichtige Überlegungen zu beachten.
+
+SaaS: Unternehmen wie Zoho und Salesforce bieten SaaS-Lösungen an. Mit SaaS erhalten Sie fertige Produkte, ohne sich um die technischen Details kümmern zu müssen. Dies ermöglicht eine schnelle Bereitstellung und ist besonders attraktiv für Unternehmen, die eine benutzerfreundliche Lösung suchen. Allerdings können SaaS-Optionen aufgrund der enthaltenen Wartung und Aktualisierungskosten etwas teurer sein. Ihre Entscheidung für SaaS hängt von der Dringlichkeit Ihrer Anforderungen und Ihrem Budget ab.
+
+PaaS: Heroku und Google App Engine sind Beispiele für PaaS-Anbieter. Mit PaaS müssen Sie sich nicht um die Serverkonfiguration kümmern, müssen jedoch Ihre eigenen Anwendungen entwickeln und programmieren. Dies ist ideal für Unternehmen, die die Flexibilität wünschen, eigene Anwendungen zu erstellen und zu verwalten, aber die Serverseite auslagern möchten. PaaS-Modelle sind oft kostengünstiger als SaaS, insbesondere wenn Sie über die erforderlichen Entwicklerfähigkeiten und Ressourcen verfügen.
+
+IaaS: Amazon Web Services (AWS) und Microsoft Azure sind führende IaaS-Anbieter. Bei IaaS sind Sie für die vollständige Konfiguration und Verwaltung der Infrastruktur verantwortlich. Dies bietet maximale Kontrolle und Flexibilität, kann jedoch komplex sein und erfordert technisches Know-how. IaaS ist in der Regel kostengünstiger als SaaS und PaaS, erfordert jedoch mehr technisches Wissen und Ressourcen für die Verwaltung. Ihre Wahl für IaaS sollte von Ihrem Bedarf an Kontrolle über die Infrastruktur und den vorhandenen Fähigkeiten in Ihrem Team abhängen.
+
+Die endgültige Entscheidung zwischen diesen Modellen sollte sorgfältig abgewogen werden. Berücksichtigen Sie Faktoren wie Skalierbarkeit, Sicherheit, langfristige Kosten, die Verfügbarkeit von Personalressourcen und die Fähigkeit, zukünftige Anforderungen zu erfüllen. Eine gründliche Analyse Ihrer Geschäftsanforderungen ist ratsam, und es kann auch sinnvoll sein, eine Kombination dieser Modelle in Betracht zu ziehen, um die besten Ergebnisse für Ihr Unternehmen zu erzielen.
+
+## B Iterpretation der Resulatate
+
+Die Unterschiede zwischen den verschiedenen Optionen sind ziemlich groß. Wenn wir über den Preis sprechen, ist AWS mit seinem Rehosting-Service normalerweise am günstigsten. Herokus Replatforming-Service ist im Vergleich dazu teurer. Das liegt daran, dass Heroku eine umfassendere Konfiguration bietet, was die Kosten erhöht.
+
+Die Frage nach dem "kostengünstigsten" hängt stark von Ihren individuellen Anforderungen ab. In der Regel ist AWS jedoch in Bezug auf den Preis wettbewerbsfähig und bietet oft eine wirtschaftliche Lösung.
+
+Warum kostet eine Option mehr als die andere? Dies kann vor allem auf die zusätzlichen Funktionen und individuellen Anforderungen zurückzuführen sein. Heroku bietet beispielsweise eine umfangreichere Anpassungsmöglichkeit, was die Kosten erhöhen kann. Dennoch bietet es auch einen erweiterten Funktionsumfang.
+
+Es ist entscheidend zu beachten, dass "teurer" nicht zwangsläufig "übermäßig teuer" bedeutet. Die höheren Kosten können durch zusätzliche Leistungen und Funktionen gerechtfertigt sein, die möglicherweise für Ihre speziellen Anforderungen von großem Wert sind. Daher ist es ratsam, Ihre Entscheidung nicht ausschließlich aufgrund des Preises zu treffen, sondern auch die individuellen Anforderungen und den Mehrwert jeder Option sorgfältig abzuwägen.
+
+Persönlich neige ich zur Auswahl zwischen AWS und Zoho, da beide preislich attraktiv sind und eine breite Palette von Dienstleistungen bieten. Für mich hängt die endgültige Entscheidung von den spezifischen Anforderungen meines Projekts ab, aber diese beiden Optionen bieten eine solide Grundlage für die meisten Anwendungsfälle.
+
+## KN04
+## A
+## B
+## C
+## D
+
+Name	            Typ	  Persistenz
+EBS Root	        Hot	  Nein
+EBS 2nd volume	  Hot	  Ja
+S3	              Warm	Ja
+
+Die EBS-Root-Konfiguration spielt eine entscheidende Rolle, da sie als Host für den Webserver fungiert und stets die image.php-Datei bereitstellen muss. Sie ist zweifellos "hot", da sie bei Bedarf sofortige Zugriffe ermöglicht. Allerdings ist sie nicht persistent, da sämtliche Dateien nach dem Herunterfahren der Instanz gelöscht werden.
+Das EBS-Second-Volume hingegen zeichnet sich durch seine Kälte aus, da es zwar keine direkte Bereitstellung von Daten bietet, jedoch aufgrund seiner Persistenz die Informationen auch nach dem Herunterfahren der Instanz bewahrt, ohne sie zu löschen.
+S3 ist für die Bereitstellung des Bildes, das von der image.php-Datei genutzt wird, von großer Bedeutung. Die Persistenz dieses Speichers ist bemerkenswert, da die Daten auch nach dem Herunterfahren erhalten bleiben, ohne gelöscht zu werden.
