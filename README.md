@@ -51,7 +51,12 @@
 Siehe commented-cloud-config.yaml file im Repository an.
 
 ## B
-Bilder hochladen
+### Ein Screenshot der Details oder Liste der Instanz, welcher den verwendeten Key zeigt
+![](/KN3List.PNG "")
+### Screenshot mit dem ssh-Befehl und des Resultats unter Verwendung des ersten Schlüssels
+![](/KN3ErsterKey.PNG "")
+### Screenshot mit dem ssh-Befehl und des Resultats unter Verwendung des zweiten Schlüssels
+![](/KN3ZweiterKey.PNG "")
 
 ## KN07
 ## A
