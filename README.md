@@ -397,5 +397,18 @@ S3 ist für die Bereitstellung des Bildes, das von der image.php-Datei genutzt w
 
 ## KN05
 ## A
+## Diagramm als Bild
+![](/KN05A.PNG "")
 ## B
+## Screenshot der Subnetzen, die die Namen zeigen
+![](/KN05BSubnet.PNG "")
 IP 1: 172.31.2.0 IP 2: 172.31.4.0
+## C
+## Screenshot der Liste der Sicherheitsgruppe mit sprechenden Namen/Feldern
+![](/KN05CSecurityGroups.PNG "")
+## Screenshot der Inbound-Regel für die DB-Sicherheitsgruppe
+![](/KN05CInboundRules.PNG "")
+## Screenshot der Liste der Elastic IPs mit sprechenden Namen
+![](/KN05CElasticIPs.PNG "")
+
+
