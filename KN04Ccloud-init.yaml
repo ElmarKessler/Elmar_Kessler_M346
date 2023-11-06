@@ -1,0 +1,53 @@
+---
+users:
+  - name: ubuntu
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    groups: users, admin
+    home: /home/ubuntu
+    shell: /bin/bash
+    ssh-authorized-keys:
+      - ssh-rsa
+        AAAAB3NzaC1yc2EAAAADAQABAAABAQDC189VB6syefxTIoxUOEQGLP2PE9g5YjwPtGWtVsWMgXzrhID/2JqcX9RpCdctOiVOo4JjmtwbZ1gChQ/n/eH5Rvaq1GmqDlNFIPJrzDIFvjiA9fVvL0W8nxF0N4AVjpIX+1RFRUQWUxuTHDG9nkF8dPIslbwfBsRMJZwBiRBsrLoyEvCRE8A9DQ21fQjRTXkRwuZdE7cG6rJKrptBO9MqFK9jdj3hW0E1KIdm2n175Bl7aY5NgWc5K0I/lHeV3649qXVFYKnw+y7Qo1oqxmhO3qNxKoL/jue9uA+Kq12LNcEbuRqPdjE0cBS2sSTBiK8ID77uaONDQsuE0ZaTu6Nr
+        aws-key
+      - ssh-rsa
+        AAAAB3NzaC1yc2EAAAADAQABAAABAQC0WGP1EZykEtv5YGC9nMiPFW3U3DmZNzKFO5nEu6uozEHh4jLZzPNHSrfFTuQ2GnRDSt+XbOtTLdcj26+iPNiFoFha42aCIzYjt6V8Z+SQ9pzF4jPPzxwXfDdkEWylgoNnZ+4MG1lNFqa8aO7F62tX0Yj5khjC0Bs7Mb2cHLx1XZaxJV6qSaulDuBbLYe8QUZXkMc7wmob3PM0kflfolR3LE7LResIHWa4j4FL6r5cQmFlDU2BDPpKMFMGUfRSFiUtaWBNXFOWHQBC2+uKmuMPYP4vJC9sBgqMvPN/X2KyemqdMvdKXnCfrzadHuSSJYEzD64Cve5Zl9yVvY4AqyBD
+        aws-key
+    ssh_pwauth: false
+    disable_root: false
+package_update: true
+packages:
+  - apache2
+  - php
+  - libapache2-mod-php
+  - php-mysqli
+  - adminer
+write_files:
+  - path: /var/www/html/image.php
+    content: >
+      <?php $ihrname = "Elmar Kessler"; ?>
+
+      <html>
+
+      <head>
+
+      <title><?php echo($ihrname) ?></title>
+
+      </head>
+
+      <body>
+
+      Stadt von oben
+
+      <br />
+
+      <img src="https://images.unsplash.com/photo-1698094276298-92b21f2df7f9?auto=format&fit=crop&q=60&w=1200&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNHx8fGVufDB8fHx8fA%3D%3D" />
+
+      Dieses Bild stammt von unsplash.
+
+      </body>
+
+      </html>
+    permissions: "0666"
+runcmd:
+  - sudo a2enconf adminer
+  - sudo systemctl restart apache2
