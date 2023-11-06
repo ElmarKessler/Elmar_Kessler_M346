@@ -113,13 +113,18 @@ Persönlich neige ich zur Auswahl zwischen AWS und Zoho, da beide preislich attr
 
 ## KN04
 ## A
+## Screenshot der S3-Objekte im Bucket
 ![](/KN04S3Bucket.PNG "")
+## Screenshot des Bildes im Browser (mit sichtbarer URL)
 ![](/KN04BildInS3.PNG "")
 ## B
+## Screenshot der Seite image.php (mit sichtbarer URL)
 ![](/KN04Bimage-phpPNG.PNG "")
+## Neues Cloud-Init für die Web-Instanz (Siehe KN04yaml.PNG)
+![](/KN04yaml.PNG "")
 ## C
-
-![](/HekoruUebersicht.PNG "")
+## Screenshots der Liste der EBS (2 Volumen) der Instanz
+![](/KN4NewVolume.PNG "")
 
 ## D
 
