@@ -257,11 +257,6 @@ Die Unterschiede zwischen den verschiedenen Optionen...
 Beschreibung der Persistenz der verschiedenen Speichertypen.
 Das ist eine grobe Darstellung, wie du das Inhaltsverzeichnis und die Bilder in dein README.md einfügen könntest. Bitte achte darauf, die Bild- und Textbeschreibungen sowie die Verlinkungen entsprechend deiner spezifischen Ordner- und Dateistruktur in deinem Projekt anzupassen.
 
-
-
-
-
-
 ## KN1
 ### Der VM wird weniger CPUS zugeteilt als der PC zu Verfügung hat.
 ![Der VM wird weniger CPUS zugeteilt als der PC zu Verfügung hat.](/wenigerCPU.png "")
@@ -399,3 +394,8 @@ S3	              Warm	Ja
 Die EBS-Root-Konfiguration spielt eine entscheidende Rolle, da sie als Host für den Webserver fungiert und stets die image.php-Datei bereitstellen muss. Sie ist zweifellos "hot", da sie bei Bedarf sofortige Zugriffe ermöglicht. Allerdings ist sie nicht persistent, da sämtliche Dateien nach dem Herunterfahren der Instanz gelöscht werden.
 Das EBS-Second-Volume hingegen zeichnet sich durch seine Kälte aus, da es zwar keine direkte Bereitstellung von Daten bietet, jedoch aufgrund seiner Persistenz die Informationen auch nach dem Herunterfahren der Instanz bewahrt, ohne sie zu löschen.
 S3 ist für die Bereitstellung des Bildes, das von der image.php-Datei genutzt wird, von großer Bedeutung. Die Persistenz dieses Speichers ist bemerkenswert, da die Daten auch nach dem Herunterfahren erhalten bleiben, ohne gelöscht zu werden.
+
+## KN05
+## A
+## B
+IP 1: 172.31.2.0 IP 2: 172.31.4.0
