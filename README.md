@@ -411,4 +411,10 @@ IP 1: 172.31.2.0 IP 2: 172.31.4.0
 ## Screenshot der Liste der Elastic IPs mit sprechenden Namen
 ![](/KN05CElasticIPs.PNG "")
 
-
+## Screenshot der Liste der Instanzen, wenn beide Instanzen gestoppt sind.
+![](/KN05ListeInstanzenStopped.PNG "")
+## Screenshot der Details beider Instanzen, so dass die Subnet ID sichtbar ist
+## EC2 DB-Server
+![](/KN05DetailDBServer.PNG "")
+## EC2 Webserver
+![](/KN05CWebserverDetails.PNG "")
