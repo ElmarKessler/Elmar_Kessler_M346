@@ -113,11 +113,14 @@ Persönlich neige ich zur Auswahl zwischen AWS und Zoho, da beide preislich attr
 
 ## KN04
 ## A
-![](/HekoruUebersicht.PNG "")
+![](/KN04S3Bucket.PNG "")
+![](/KN04BildInS3.PNG "")
 ## B
-![](/HekoruUebersicht.PNG "")
+![](/KN04Bimage-phpPNG.PNG "")
 ## C
+
 ![](/HekoruUebersicht.PNG "")
+
 ## D
 
 Name	            Typ	  Persistenz
